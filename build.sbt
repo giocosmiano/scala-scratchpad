@@ -1,4 +1,4 @@
-name := "la-sbt-demo"
+name := "scala-scratchpad"
 
 version := "0.1"
 

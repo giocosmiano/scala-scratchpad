@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="la-sbt-demo">
+    <profile name="sbt 1" modules="la-sbt-demo,scala-scratchpad">
       <option name="featureWarnings" value="true" />
     </profile>
   </component>

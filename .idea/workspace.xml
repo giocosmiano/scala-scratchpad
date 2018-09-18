@@ -2,9 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="085803e1-479f-4f7a-ab97-cf51a87c7ee5" name="Default" comment="sample sbt">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_2_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_2_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_core_1_2_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_core_1_2_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_scala_logging_scala_logging_2_12_3_7_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_scala_logging_scala_logging_2_12_3_7_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__joda_time_joda_time_2_9_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__joda_time_joda_time_2_9_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_6_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_6_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_6_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_6_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_sbt_test_interface_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_sbt_test_interface_1_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalacheck_scalacheck_2_12_1_13_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalacheck_scalacheck_2_12_1_13_4_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaz_scalaz_concurrent_2_12_7_3_0_M11_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaz_scalaz_concurrent_2_12_7_3_0_M11_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaz_scalaz_core_2_12_7_3_0_M11_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaz_scalaz_core_2_12_7_3_0_M11_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaz_scalaz_effect_2_12_7_3_0_M11_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaz_scalaz_effect_2_12_7_3_0_M11_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaz_scalaz_iteratee_2_12_7_3_0_M11_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaz_scalaz_iteratee_2_12_7_3_0_M11_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaz_scalaz_scalacheck_binding_2_12_7_3_0_M11_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaz_scalaz_scalacheck_binding_2_12_7_3_0_M11_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaz_scalaz_typelevel_2_12_7_1_17_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaz_scalaz_typelevel_2_12_7_1_17_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaz_stream_scalaz_stream_2_12_0_8_6_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaz_stream_scalaz_stream_2_12_0_8_6_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scodec_scodec_bits_2_12_1_1_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scodec_scodec_bits_2_12_1_1_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/la-sbt-demo-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala-scratchpad-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/la-sbt-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala-scratchpad.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/sample.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sample.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/sample2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sample2.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/byAlexanderWorton/sampleKleisli/Main1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/byAlexanderWorton/sampleKleisli/Main1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/byAlexanderWorton/sampleKleisli/Main2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/byAlexanderWorton/sampleKleisli/Main2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/byNickPartridge/Main1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/byNickPartridge/Main1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/byNickPartridge/Main2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/byNickPartridge/Main2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/byNickPartridge/Main3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/byNickPartridge/Main3.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/byNickPartridge/Main4.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/byNickPartridge/Main4.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/byNickPartridge/Main5.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/byNickPartridge/Main5.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/AdjunctUsage.scalaz" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/AdjunctUsage.scalaz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/ApplyUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/ApplyUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/ArrowUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/ArrowUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/BifunctorUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/BifunctorUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/CaseInsensitiveUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/CaseInsensitiveUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/CodensityUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/CodensityUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/ContTUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/ContTUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/ContravariantCoyonedaUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/ContravariantCoyonedaUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/DirectTypeClassUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/DirectTypeClassUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/DivideExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/DivideExample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/EndoUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/EndoUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/EnumUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/EnumUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/FingerTreeUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/FingerTreeUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/Foldable1Usage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/Foldable1Usage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/FoldableUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/FoldableUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/FreeApUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/FreeApUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/FreeUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/FreeUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/FunctorUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/FunctorUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/IListUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/IListUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/IsomorphismUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/IsomorphismUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/IterateeUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/IterateeUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/KleisliUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/KleisliUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/MixedBag.scalaz" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/MixedBag.scalaz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/MonadTransUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/MonadTransUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/NameNeedValueUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/NameNeedValueUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/NewTypeUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/NewTypeUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/PartiallyApplied.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/PartiallyApplied.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/ReaderWriterStateTUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/ReaderWriterStateTUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/STUsage.scalaz" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/STUsage.scalaz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/StateTUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/StateTUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/StringUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/StringUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/SyntaxUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/SyntaxUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/TagUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/TagUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/TrampolineUsage.scalaz" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/TrampolineUsage.scalaz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/TraverseUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/TraverseUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/UnapplyInference.scalaz" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/UnapplyInference.scalaz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/WordCount.scalaz" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/WordCount.scalaz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/WriterUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/WriterUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/concurrent/ChanUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/concurrent/ChanUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/concurrent/MVarUsage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/concurrent/MVarUsage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/transformers/typecheck/TypeCheckerWithExplicitTypes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/transformers/typecheck/TypeCheckerWithExplicitTypes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/transformers/typecheck/TypeCheckerWithExplicitTypesAST.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/transformers/typecheck/TypeCheckerWithExplicitTypesAST.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/transformers/typecheck/TypeCheckerWithExplicitTypes_MonadTransformers.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/transformers/typecheck/TypeCheckerWithExplicitTypes_MonadTransformers.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/transformers/typecheck/TypeCheckerWithExplicitTypes_Monadic.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/transformers/typecheck/TypeCheckerWithExplicitTypes_Monadic.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +115,23 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="la-sbt-demo" type="f1a62948:ProjectNode" />
+                <item name="scala-scratchpad" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="scala-scratchpad" type="f1a62948:ProjectNode" />
+                <item name="scala-scratchpad" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="scala-scratchpad" type="f1a62948:ProjectNode" />
+                <item name="scala-scratchpad-build" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="scala-scratchpad" type="f1a62948:ProjectNode" />
+                <item name="scala-scratchpad-build" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -120,6 +222,36 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1621777712">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="sbt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Git file" value="1" />
+          <entry key="sbt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="sbt" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="sbt" value="16" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -135,20 +267,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sample.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1171">
-              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+            <state relative-caret-position="140">
+              <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sample2.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+            <state relative-caret-position="72">
+              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -271,7 +412,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/scalaz/github/scalaz/example/transformers/transformers/transformers/FingerTreeUsage.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scalaz/github/scalaz/example/transformers/transformers/transformers/FunctorUsage.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scalaz/github/scalaz/example/transformers/transformers/transformers/IListUsage.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/scalaz/github/scalaz/example/transformers/transformers/transformers/IterateeUsage.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/AdjunctUsage.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/MonadTransUsage.scala" />
@@ -291,6 +431,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/scalaz/github/examples/IsomorphismUsage.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sample.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/sample2.sc" />
+        <option value="$PROJECT_DIR$/build.sbt" />
       </list>
     </option>
   </component>
@@ -321,53 +462,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="sbt-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbt-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-scratchpad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala-scratchpad" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sbt-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbt-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-scratchpad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala-scratchpad" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sbt-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbt-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbt-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbt-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-scratchpad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala-scratchpad" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sbt-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbt-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-scratchpad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala-scratchpad" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scalaz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbt-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbt-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scalaz" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -378,11 +502,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="sbt.project.settings.configurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -414,7 +537,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MonadTransUsage">
+  <component name="RunManager" selected="Application.KleisliUsage (4)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -423,7 +546,7 @@
     </configuration>
     <configuration name="FunctorUsage" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="scalaz.github.examples.FunctorUsage" />
-      <module name="la-sbt-demo" />
+      <module name="scala-scratchpad" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -437,7 +560,7 @@
     </configuration>
     <configuration name="IListUsage" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="scalaz.github.examples.IListUsage" />
-      <module name="la-sbt-demo" />
+      <module name="scala-scratchpad" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -451,7 +574,7 @@
     </configuration>
     <configuration name="IsomorphismUsage" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="scalaz.github.examples.IsomorphismUsage" />
-      <module name="la-sbt-demo" />
+      <module name="scala-scratchpad" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -465,7 +588,7 @@
     </configuration>
     <configuration name="KleisliUsage (4)" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="scalaz.github.examples.KleisliUsage" />
-      <module name="la-sbt-demo" />
+      <module name="scala-scratchpad" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -479,7 +602,7 @@
     </configuration>
     <configuration name="MonadTransUsage" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="scalaz.github.examples.MonadTransUsage" />
-      <module name="la-sbt-demo" />
+      <module name="scala-scratchpad" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -520,11 +643,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KleisliUsage (4)" />
         <item itemvalue="Application.MonadTransUsage" />
         <item itemvalue="Application.IsomorphismUsage" />
         <item itemvalue="Application.IListUsage" />
         <item itemvalue="Application.FunctorUsage" />
-        <item itemvalue="Application.KleisliUsage (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -534,18 +657,18 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="la-sbt-demo" />
+              <option name="name" value="scala-scratchpad" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="la-sbt-demo [file:/C:/Users/U0164744/Documents/_aldProjects/_aldLegalAnalytics/la-sbt-demo/]" />
+                <option name="name" value="scala-scratchpad [file:/C:/Users/U0164744/Documents/_sampleProgrammingCodes/_scala/scala-scratchpad/]" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="la-sbt-demo-build [file:/C:/Users/U0164744/Documents/_aldProjects/_aldLegalAnalytics/la-sbt-demo/]" />
+                <option name="name" value="scala-scratchpad-build [file:/C:/Users/U0164744/Documents/_sampleProgrammingCodes/_scala/scala-scratchpad/]" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
@@ -555,8 +678,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3063944383641" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="672758687" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3330782485" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2096222171" />
         <entry key="C:\Users\U0164744\Documents\_aldProjects\_aldLegalAnalytics\la-sbt-demo" value="3059006318534" />
       </map>
@@ -634,6 +756,7 @@
       <workItem from="1536952495896" duration="592000" />
       <workItem from="1536958366402" duration="39000" />
       <workItem from="1537189533899" duration="3398000" />
+      <workItem from="1537286809754" duration="460000" />
     </task>
     <task id="LOCAL-00001" summary="sample sbt">
       <created>1535645845181</created>
@@ -653,7 +776,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79097000" />
+    <option name="totallyTimeSpent" value="79557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
@@ -664,7 +787,7 @@
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="0" sideWeight="0.49694377" visible="true" weight="0.33977273" />
+      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.49694377" visible="true" weight="0.33977273" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="1" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="2" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.3284091" />
@@ -681,7 +804,7 @@
       <window_info anchor="right" id="Ant Build" order="1" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="sbt" order="4" weight="0.16870415" />
+      <window_info active="true" anchor="right" id="sbt" order="4" visible="true" weight="0.16870415" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.14425428" />
       <window_info anchor="right" id="IDEtalk" order="6" />
     </layout>
@@ -772,7 +895,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/scalaz/example/transformers/KleisliUsage.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/byAlexanderWorton/sampleKleisli/Main1.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -905,13 +1027,6 @@
         <state relative-caret-position="-816" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/MonadTransUsage.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -944,6 +1059,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
@@ -1008,24 +1130,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sample.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1171">
-          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sample2.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+        <state relative-caret-position="72">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sample.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1082,7 +1211,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>la-sbt-demo-build</last-edited>
+          <last-edited>scala-scratchpad-build</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
