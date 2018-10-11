@@ -1,3 +1,5 @@
+import java.net.{URLDecoder, URLEncoder}
+
 import scalaz._
 import Scalaz._
 
@@ -51,20 +53,25 @@ val h2 = h.map { "." + _ }
 println(s"$h1")
 println(s"$h2")
 
-val result =
+val zResult1 =
   for {
-    z1 <- s1.getOrElse("")
-    z2 <- s2.getOrElse("")
-    z3 <- s3.getOrElse("")
-    z4 <- s4.getOrElse("")
-    z <- List(z1, z2, z3, z4)
-//    z <- Tuple4(z1, z2, z3, z4)
-//    z <- s"$z1$DEFAULT_DELIMITER$z2$DEFAULT_DELIMITER$z3$DEFAULT_DELIMITER$z4"
-  } yield z
+    z1 <- s1
+    z2 <- s2
+    z3 <- s3
+    z4 <- s4
+  } yield Tuple4(z1, z2, z3, z4)
 
-println(result)
-println(s"z1=${result}")
-//println(s"z1=${result.seq}, z1=${result._2}, z1=${result._3}, 41=${result._4}")
+val zResult2 =
+  for {
+    z2 <- s2
+    z3 <- s3
+    z4 <- s4
+  } yield Tuple3(z2, z3, z4)
+
+val zResult3 = s2 |@| s3 |@| s4
+println(zResult2)
+println(s"zResult2==$zResult2")
+println(s"zResult3==$zResult3")
 
 
 // --------------------------------------------------------------------------------------
@@ -123,3 +130,9 @@ println(f"$pi%.2f" + "%")
 
 val pct = 15 / 90.toDouble * 100
 println(f"$pct%.2f" + "%")
+
+val qp = "belongsToChain.JudicialMatter%3E%26hasChainItem.JudicialMatter"
+val url = "http://localhost:8080/ask?test=asdf%3E%26"
+val urlE = URLDecoder.decode(qp, "UTF-8")
+println(s"$url\n$urlE")
+

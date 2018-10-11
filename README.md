@@ -1,1 +1,1 @@
-### This repository is my personal scratch pad for Scala/ScalaZ
+### λa.a »»» My personal scratch pad for Scala, ScalaZ, Spark etc ««« 
