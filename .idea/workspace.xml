@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="085803e1-479f-4f7a-ab97-cf51a87c7ee5" name="Default" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/tailRecFactorial.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/tailRecFibonacci.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/tailRecGcd.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/tailRecMax.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/tailRecProduct.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/tailRecSum.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,227 +42,94 @@
       </state>
     </system>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1030972724">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.173" value="1" />
-          <entry key="project.open.time.185" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.55" value="1" />
-          <entry key="project.open.time.57" value="1" />
-          <entry key="project.open.time.63" value="1" />
-          <entry key="project.open.time.94" value="2" />
-          <entry key="project.opened" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="sc" value="3" />
-          <entry key="scala" value="86" />
-          <entry key="scalaz" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Scala" value="89" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="sbt" value="124" />
-          <entry key="sc" value="1878" />
-          <entry key="scala" value="2874" />
-          <entry key="scalaz" value="7" />
-          <entry key="txt" value="34" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="41" />
-          <entry key="Scala" value="4752" />
-          <entry key="sbt" value="124" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-151786535">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.127" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.45" value="1" />
-          <entry key="project.opened" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="sc" value="351" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Scala" value="351" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="sc" value="1" />
-          <entry key="scala" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Scala" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1621777712">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="sbt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Git file" value="1" />
-          <entry key="sbt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="sbt" value="16" />
-          <entry key="txt" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="sbt" value="16" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/FunctorUsage.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/tailRecSum.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-              <folding>
-                <element signature="e#32#47#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="525">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sample.sc">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/tailRecProduct.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1666">
-              <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
+            <state relative-caret-position="256">
+              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sample2.sc">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/tailRec/Gcd.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+            <state relative-caret-position="330">
+              <caret line="24" lean-forward="true" selection-start-line="10" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/tailRecGcd.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/IListUsage.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/tailRecMax.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding>
-                <element signature="e#32#47#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="106">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/tailRecFactorial.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/KleisliUsage.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/tailRecFibonacci.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/StringUsage.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/tailRec/Fibonacci.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="330">
+              <caret line="24" lean-forward="true" selection-start-line="11" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/SyntaxUsage.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/tailRec/Factorial.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="450">
+              <caret line="32" lean-forward="true" selection-start-line="11" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/byAlexanderWorton/sampleKleisli/Main2.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/tailRec/Max.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-              <folding>
-                <element signature="e#48#94#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/byNickPartridge/Main5.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
-              <folding>
-                <element signature="e#32#65#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="419">
+              <caret line="54" lean-forward="true" selection-start-line="11" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -276,23 +148,9 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$/../../../_aldProjectX/authoring-service" value="2930643360536" />
-        <entry key="$PROJECT_DIR$/../../_aldProjectX/authorization-service" value="2939074243808" />
-      </map>
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/scalaz/byWortonAlexSampleKleisli/Main2.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/scalaz/byAlexWortonSampleKleisli/Main2.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/scalaz/byAlexWortonSampleKleisli/sampleKleisli/Main2.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/scalaz/byAlexWorton/sampleKleisli/Main2.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/scalaz/byAlexanderWorton/sampleKleisli/Main2.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/scalaz/byNickPartridge/Main1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scalaz/byNickPartridge/Main4.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scalaz/byNickPartridge/Main3.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scalaz/byNickPartridge/Main2.scala" />
@@ -338,14 +196,14 @@
         <option value="$PROJECT_DIR$/src/main/scala/sample.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/sample2.sc" />
         <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/tailRecSum.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/tailRecProduct.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/tailRecGcd.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/tailRecMax.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/tailRecFactorial.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/tailRecFibonacci.sc" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -360,6 +218,7 @@
     <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -400,16 +259,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scalaz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scala-scratchpad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala-scratchpad" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scalaz" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="tailRec" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -421,6 +271,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548198569191" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
@@ -441,11 +292,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala" />
       <recent name="C:\Users\U0164744\Documents\_aldProjects\_aldLegalAnalytics\la-sbt-demo\src\main\scala\scalaz\github\scalaz\example\transformers\transformers\transformers" />
       <recent name="C:\Users\U0164744\Documents\_aldProjects\_aldLegalAnalytics\la-sbt-demo\src\main\scala\scalaz\github\scalaz\example\transformers\transformers" />
       <recent name="C:\Users\U0164744\Documents\_aldProjects\_aldLegalAnalytics\la-sbt-demo\src\main\scala\scalaz\github\scalaz\example\transformers" />
       <recent name="C:\Users\U0164744\Documents\_aldProjects\_aldLegalAnalytics\la-sbt-demo\src\main\scala\scalaz\github\scalaz\example" />
-      <recent name="C:\Users\U0164744\Documents\_aldProjects\_aldLegalAnalytics\la-sbt-demo\src\main\scala\scalaz" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -460,23 +311,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KleisliUsage (4)">
-    <configuration default="true" type="Applet" factoryName="Applet">
+  <component name="RunManager" selected="Scala Console.Scala Console">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctorUsage" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scalaz.github.examples.FunctorUsage" />
-      <module name="scala-scratchpad" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scalaz.github.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -544,12 +381,22 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
+      <module name="scala-scratchpad" />
+      <setting name="vmparams4" value="-Djline.terminal=NONE" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="consoleArgs" value="-usejavacp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <properties />
       <listeners />
@@ -559,18 +406,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.KleisliUsage (4)" />
-      <item itemvalue="Application.FunctorUsage" />
       <item itemvalue="Application.IListUsage" />
       <item itemvalue="Application.IsomorphismUsage" />
       <item itemvalue="Application.MonadTransUsage" />
+      <item itemvalue="Scala Console.Scala Console" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Scala Console.Scala Console" />
         <item itemvalue="Application.KleisliUsage (4)" />
         <item itemvalue="Application.MonadTransUsage" />
         <item itemvalue="Application.IsomorphismUsage" />
         <item itemvalue="Application.IListUsage" />
-        <item itemvalue="Application.FunctorUsage" />
       </list>
     </recent_temporary>
   </component>
@@ -601,8 +448,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3066787634291" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="3330782485" />
+        <entry key="$PROJECT_DIR$" value="3096396020000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1914523925" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2096222171" />
         <entry key="C:\Users\U0164744\Documents\_aldProjects\_aldLegalAnalytics\la-sbt-demo" value="3059006318534" />
       </map>
@@ -688,6 +535,8 @@
       <workItem from="1537291445296" duration="76000" />
       <workItem from="1537291948633" duration="386000" />
       <workItem from="1537292413388" duration="843000" />
+      <workItem from="1548198021287" duration="49000" />
+      <workItem from="1548198105420" duration="465000" />
     </task>
     <task id="LOCAL-00001" summary="sample sbt">
       <created>1535645845181</created>
@@ -721,70 +570,81 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83481000" />
+    <option name="totallyTimeSpent" value="83995000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1020" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1797066" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.18356457" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.49755502" visible="true" weight="0.33977273" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="1" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="0" sideWeight="0.49755502" visible="true" weight="0.338766" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="1" weight="0.32945284" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="2" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.3284091" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.32857144" />
       <window_info anchor="bottom" id="IvyIDEA" order="7" weight="0.32954547" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32945284" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.502445" side_tool="true" weight="0.33977273" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49938875" weight="0.3272727" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49938875" weight="0.32712457" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.33977273" />
-      <window_info anchor="bottom" id="SBT Console" order="12" weight="0.3284091" />
+      <window_info anchor="bottom" id="SBT Console" order="12" weight="0.3282887" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Ant Build" order="1" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="sbt" order="4" visible="true" weight="0.16870415" />
+      <window_info anchor="right" id="sbt" order="4" weight="0.16862327" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.14425428" />
       <window_info anchor="right" id="IDEtalk" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1797066" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18356457" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.49694377" weight="0.33977273" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="1" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.49755502" weight="0.33914053" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="1" weight="0.32945284" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="2" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.3284091" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.32857144" />
       <window_info anchor="bottom" id="IvyIDEA" order="7" weight="0.32954547" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32967034" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061125" side_tool="true" visible="true" weight="0.33977273" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49938875" weight="0.3272727" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32945284" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.502445" side_tool="true" weight="0.33977273" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49938875" weight="0.32712457" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.33977273" />
-      <window_info anchor="bottom" id="SBT Console" order="12" weight="0.3284091" />
+      <window_info anchor="bottom" id="SBT Console" order="12" weight="0.3282887" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Ant Build" order="1" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="sbt" order="4" weight="0.16870415" />
+      <window_info anchor="right" id="sbt" order="4" visible="true" weight="0.16862327" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.14425428" />
       <window_info anchor="right" id="IDEtalk" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sample sbt" />
@@ -840,44 +700,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/byAlexanderWorton/sampleKleisli/Main1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/scalaz/example/transformers/ArrowUsage.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/scalaz/example/transformers/AdjunctUsage.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/scalaz/example/transformers/BifunctorUsage.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/scalaz/example/transformers/transformers/concurrent/ChanUsage.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/scalaz/example/transformers/transformers/EnumUsage.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/scalaz/example/transformers/transformers/ArrowUsage.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/scalaz/example/transformers/transformers/AdjunctUsage.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/scalaz/example/transformers/transformers/BifunctorUsage.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/scalaz/example/transformers/transformers/ContTUsage.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/scalaz/example/transformers/transformers/DivideExample.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/ContTUsage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/BifunctorUsage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/ArrowUsage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/ContravariantCoyonedaUsage.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -979,13 +801,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/App.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-307">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/App.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/transformers/typecheck/TypeCheckerWithExplicitTypes.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -993,13 +809,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/Predef.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="184" column="14" selection-start-line="184" selection-start-column="14" selection-end-line="184" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/Predef.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/IsomorphismUsage.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1007,13 +817,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/package.scala" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1023,7 +827,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/FunctorUsage.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="375">
           <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding>
             <element signature="e#32#47#0" expanded="true" />
@@ -1031,30 +835,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sample.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sample2.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/IListUsage.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="60">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding>
             <element signature="e#32#47#0" expanded="true" />
@@ -1064,21 +854,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/StringUsage.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/SyntaxUsage.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="315">
           <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/byAlexanderWorton/sampleKleisli/Main2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="75">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding>
             <element signature="e#48#94#0" expanded="true" />
@@ -1088,7 +878,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/byNickPartridge/Main5.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
+        <state relative-caret-position="1275">
           <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
           <folding>
             <element signature="e#32#65#0" expanded="true" />
@@ -1098,8 +888,116 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/github/examples/KleisliUsage.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+        <state relative-caret-position="312">
+          <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/tailRec/Sum.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="53" selection-start-line="11" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaz/byAlexanderWorton/sampleKleisli/Main1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/stuff.sc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sample2.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sample.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/tailRecSum.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/tailRecProduct.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/tailRec/Gcd.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" lean-forward="true" selection-start-line="10" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/tailRecGcd.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/tailRec/Product.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="53" selection-start-line="11" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/tailRec/Max.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="54" lean-forward="true" selection-start-line="11" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/tailRecMax.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/tailRec/Factorial.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" lean-forward="true" selection-start-line="11" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/tailRecFactorial.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/tailRec/Fibonacci.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" lean-forward="true" selection-start-line="11" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/tailRecFibonacci.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
