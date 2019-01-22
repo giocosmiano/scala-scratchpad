@@ -36,8 +36,8 @@ def sumSum(ints: List[Int]): Int = {
 
 val list = List.range(1, 1000)
 println("list 1..1000")
-println(s"sum == ${sum(list)}")
-println(s"sum2 == ${sum2(list)}")
-println(s"sum3 == ${sum3(list)}")
+println(s"sum           == ${sum(list)}")
+println(s"sum2          == ${sum2(list)}")
+println(s"sum3          == ${sum3(list)}")
 println(s"sumWithReduce == ${sumWithReduce(list)}")
-println(s"sumSum == ${sumSum(list)}")
+println(s"sumSum        == ${sumSum(list)}")

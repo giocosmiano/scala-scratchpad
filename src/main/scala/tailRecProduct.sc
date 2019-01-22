@@ -36,8 +36,8 @@ def productProduct(ints: List[BigInt]): BigInt = {
 
 val list: List[BigInt] = List.range(BigInt(1),BigInt(100))
 println("list 1..100")
-println(s"product == ${product(list)}")
-println(s"product2 == ${product2(list)}")
-println(s"product3 == ${product3(list)}")
+println(s"product           == ${product(list)}")
+println(s"product2          == ${product2(list)}")
+println(s"product3          == ${product3(list)}")
 println(s"productWithReduce == ${productWithReduce(list)}")
-println(s"productProduct == ${productProduct(list)}")
+println(s"productProduct    == ${productProduct(list)}")

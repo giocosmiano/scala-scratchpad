@@ -18,5 +18,5 @@ def factorial2(n: BigInt): BigInt = {
 
 val x = BigInt(50000)
 println(s"factorial of $x")
-println(s"factorial == ${factorial(x)}")
+println(s"factorial  == ${factorial(x)}")
 println(s"factorial2 == ${factorial2(x)}")

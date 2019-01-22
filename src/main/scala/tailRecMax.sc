@@ -38,7 +38,7 @@ def maxMax(ints: List[Int]): Int = {
 
 val list = List.range(1, 1000)
 println("list 1..1000")
-println(s"max == ${max(list)}")
-println(s"max2 == ${max2(list)}")
+println(s"max           == ${max(list)}")
+println(s"max2          == ${max2(list)}")
 println(s"maxWithReduce == ${maxWithReduce(list)}")
-println(s"maxMax == ${maxMax(list)}")
+println(s"maxMax        == ${maxMax(list)}")
