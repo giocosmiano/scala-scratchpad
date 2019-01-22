@@ -8,8 +8,8 @@ def gcd(a: Int, b: Int): Int = {
   gcdHelper(a, b)
 }
 
-val a = 14
-val b = 21
+val a = 3
+val b = 256
 
 println(s"gcd $a, $b")
 println(s"gcd == ${gcd(a, b)}")

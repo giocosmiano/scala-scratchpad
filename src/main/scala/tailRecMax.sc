@@ -19,7 +19,7 @@ def max2(ints: List[Int]): Int = {
   @tailrec
   def maxAccum2(ints: List[Int], theMax: Int): Int = {
     if (ints.isEmpty) {
-      return theMax
+      theMax
     } else {
       val newMax = if (ints.head > theMax) ints.head else theMax
       maxAccum2(ints.tail, newMax)
@@ -36,8 +36,8 @@ def maxMax(ints: List[Int]): Int = {
   ints.max
 }
 
-val list = List.range(1, 1000)
-println("list 1..1000")
+val list = List.range(1, 5000000)
+println(s"list 1..${list.last}")
 println(s"max           == ${max(list)}")
 println(s"max2          == ${max2(list)}")
 println(s"maxWithReduce == ${maxWithReduce(list)}")

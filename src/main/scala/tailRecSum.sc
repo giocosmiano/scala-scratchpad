@@ -34,8 +34,8 @@ def sumSum(ints: List[Int]): Int = {
   ints.sum
 }
 
-val list = List.range(1, 1000)
-println("list 1..1000")
+val list = List.range(1, 5000)
+println(s"list 1..${list.last}")
 println(s"sum           == ${sum(list)}")
 println(s"sum2          == ${sum2(list)}")
 println(s"sum3          == ${sum3(list)}")
