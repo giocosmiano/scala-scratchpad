@@ -11,7 +11,7 @@ import scala.annotation.tailrec
 object Sum extends App with StrictLogging {
 
   val list = List.range(1, 1000)
-  println("list 1..1000")
+  println(s"list 1..${list.last}")
   println(s"sum == ${sum(list)}")
   println(s"sum2 == ${sum2(list)}")
   println(s"sum3 == ${sum3(list)}")

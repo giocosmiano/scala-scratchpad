@@ -11,7 +11,7 @@ import scala.annotation.tailrec
 object Max extends App with StrictLogging {
 
   val list = List.range(1, 1000)
-  println("list 1..1000")
+  println(s"list 1..${list.last}")
   println(s"max == ${max(list)}")
   println(s"max2 == ${max2(list)}")
   println(s"maxWithReduce == ${maxWithReduce(list)}")
