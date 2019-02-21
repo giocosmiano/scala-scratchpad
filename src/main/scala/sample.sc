@@ -18,14 +18,20 @@ val error = if (x === x) false else true
 val e1 = ""
 val e2 = "\n\t"
 val e3 = "hello"
+val e4 = Option.empty[String].orNull
 
 Option(e1).isEmpty
 Option(e2).isEmpty
 Option(e3).isEmpty
+Option(e4).isEmpty
 
 Option(e1).nonEmpty
 Option(e2).nonEmpty
 Option(e3).nonEmpty
+Option(e4).nonEmpty
+
+val e1Empty = e1 == ""
+println(s"is e1 empty? $e1Empty")
 
 val s1: Option[String] = None
 val s2: Option[String] = Some("")
